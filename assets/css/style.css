@@ -17,7 +17,7 @@ html {
   width: calc(
     100% - 70px
   ); /* Take the full width minus the sidebar width, after hamburger minimized */
-  background-color: #222;
+  background-color: #000;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -62,8 +62,8 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #6495ed; /* Sidebar background color */
-  padding-top: 60px; /* Space for the navbar */
+  background-color: #0039a6; /* Sidebar background color */
+  padding-top: 30px; /* Space for the navbar */
   transition: width 0.3s; /* Smooth transition when minimized */
   overflow-x: hidden; /* Prevent text overflow */
 }
@@ -137,7 +137,7 @@ form {
 label {
   margin-top: 10px;
   font-size: 14px;
-  color: #6495ed;
+  color: #0039a6;
 }
 
 input[type="text"],
@@ -153,7 +153,7 @@ select {
 }
 
 button {
-  background-color: #6495ed;
+  background-color: #0039a6;
   color: white;
   padding: 10px;
   border: none;
@@ -163,7 +163,7 @@ button {
 }
 
 button:hover {
-  background-color: #6495ed;
+  background-color: #397cef;
 }
 
 p {
@@ -173,7 +173,7 @@ p {
 }
 
 a {
-  color: #6495ed;
+  color: #0039a6;
   text-decoration: none;
 }
 
